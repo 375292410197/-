@@ -15,8 +15,19 @@
        .scale img{
         width: 70px;
         height: 70px;
+        padding: 10px;
    }
    .justify{
        justify-content: center;
    }
+   @media screen and (max-width: 961px){
+    .scale img{
+     width: 100px;
+     height: 100px;
+     padding: 10px;
+     
+}
+.justify{
+    justify-content: center;
+}
 }
